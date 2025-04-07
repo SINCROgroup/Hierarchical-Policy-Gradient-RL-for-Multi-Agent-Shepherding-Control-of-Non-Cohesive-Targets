@@ -5,10 +5,11 @@
 This repository contains the numerical simulations discussed in 
 ```
 @ARTICLE{arXiv:2504.02479,
-  author={Stefano, Covone and Italo, Napolitano and De Lellis, Francesco and di Bernardo, Mario},
+  author={Covone, Stefano and Napolitano, Italo and De Lellis, Francesco and di Bernardo, Mario},
   journal={arXiv:2504.02479, 
   title={Hierarchical Policy-Gradient Reinforcement Learning for Multi-Agent Shepherding Control of Non-Cohesive Targets}, 
-  year={2025}}
+  year={2025},
+  url = {http://arxiv.org/abs/2504.02479},}
 ```
 In this context, a group of herder agents works to corral and contain a group of target agents within a goal region in the plane.
 
