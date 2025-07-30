@@ -1,6 +1,6 @@
 # Hierarchical-Policy-Gradient-RL-for-Multi-Agent-Shepherding-Control-of-Non-Cohesive-Targets
 
-*Abstract: We propose a decentralized reinforcement learning solution for multi-agent shepherding of non-cohesive targets using policy-gradient methods. Our architecture integrates target-selection with target-driving through Proximal Policy Optimization, overcoming discrete-action constraints of previous Deep Q-Network approaches and enabling smoother agent trajectories. This model-free framework effectively solves the shepherding problem without prior dynamics knowledge. Experiments demonstrate our method’s effectiveness and scalability with increased target numbers and limited sensing capabilities.*
+*Abstract: We propose a decentralized reinforcement learning solution for multi-agent shepherding of non-cohesive targets using policy-gradient methods. Our architecture integrates target-selection with target-driving through Proximal Policy Optimization, enabling continuous action spaces and smoother agent trajectories compared to discrete-action approaches. This model-free framework effectively solves the shepherding problem while exhibiting better performance than model-based solutions previously presented in the literature. Experiments demonstrate our method's effectiveness and scalability with increased target numbers and limited sensing capabilities.*
 
 This repository contains the numerical simulations discussed in 
 ```
@@ -21,4 +21,4 @@ Folder organization:
 
 - "N_10_M_100.mp4": This video shows the simulation discussed in Section V.C and depicted in Figure 6 of [1]. The previously trained network, designed for a two-herder, five-target scenario, is extended to handle 10 herders and 100 targets. Each herder is limited to sensing the five closest targets and the nearest herder, demonstrating the scalability and effectiveness of the proposed solution.
 
-[1]: Stefano Covone, Italo Napolitano, Francesco De Lellis, Mario di Bernardo, "Hierarchical Policy-Gradient Reinforcement Learning for Multi-Agent Shepherding Control of Non-Cohesive Targets," submitted for pubblication in the proceedings of, and presentation at the Conference on Decision and Control 2025.
+[1]: Stefano Covone, Italo Napolitano, Francesco De Lellis, Mario di Bernardo, "Hierarchical Policy-Gradient Reinforcement Learning for Multi-Agent Shepherding Control of Non-Cohesive Targets," accepted for pubblication in the proceedings of, and presentation at the 64th IEEE Conference on Decision and Control 2025.
